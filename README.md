@@ -27,4 +27,4 @@ Steps to use:
 18. Create a new table in the database by the name "wp_user_data" by adding the following SQL command - "CREATE TABLE `wordpress`.`wp_user_data` (`email` VARCHAR(30) NOT NULL , `username` VARCHAR(30) NOT NULL , `age` INT NOT NULL , `gender` CHAR(1) NOT NULL , `mobile_number` INT(11) NOT NULL , `password` VARCHAR(16) NOT NULL ) ENGINE = InnoDB;"
 19. Now you are all set for storing your user data in your database.
 
-#Update 3.0 coming soon!
+**Update 3.0 coming soon!**
