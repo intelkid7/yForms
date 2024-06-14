@@ -1,0 +1,19 @@
+#dynamic-login-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#add-field-button {
+    margin-bottom: 20px;
+}
+
+#form-fields {
+    margin-bottom: 20px;
+}
+
+#submit-button {
+    margin-top: 20px;
+}
