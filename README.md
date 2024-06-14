@@ -22,7 +22,7 @@ Steps to use:
 13. Insert the following shortcode - "[y_forms fields="fields, you, want, seperated, by, commas" labels="field, labels, you, want, seperated, by, commas" display_type="blocks/table"]"
 14. Here's an example of a simple shortcode - [y_forms fields="email, username" labels="Email, Username" display="table"] (Note that it is not necessary to write fields and labels as the same)
 15. To save the details of the form to your database follow the below steps:
-    15.1 Login to PhpMyAdmin
-    15.2 Create a new database by the name "wordpress"
-    15.3 Create a new table in the database by the name "wp_user_data" by adding the following SQL command - "CREATE TABLE `wordpress`.`wp_user_data` (`email` VARCHAR(30) NOT NULL , `username` VARCHAR(30) NOT NULL , `age` INT NOT NULL , `gender` CHAR(1) NOT NULL , `mobile_number` INT(11) NOT NULL , `password` VARCHAR(16) NOT NULL ) ENGINE = InnoDB;"
-    15.4 Now you are all set for storing your user data in your database.
+16. Login to PhpMyAdmin
+17. Create a new database by the name "wordpress"
+18. Create a new table in the database by the name "wp_user_data" by adding the following SQL command - "CREATE TABLE `wordpress`.`wp_user_data` (`email` VARCHAR(30) NOT NULL , `username` VARCHAR(30) NOT NULL , `age` INT NOT NULL , `gender` CHAR(1) NOT NULL , `mobile_number` INT(11) NOT NULL , `password` VARCHAR(16) NOT NULL ) ENGINE = InnoDB;"
+19. Now you are all set for storing your user data in your database.
