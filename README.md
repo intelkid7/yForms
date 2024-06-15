@@ -1,10 +1,15 @@
 # yForms v2.0
 A wordpress plugin to create dynamic forms for your website
 
-Date created: 3 Jan 2023
-Updated: 14 June 2024
-Current Version: 2.0
-Author: Priyansh JS. Yadav
+- Date created: 3 Jan 2023
+- Updated: 14 June 2024
+- Current Version: 2.0
+- Author: Priyansh JS. Yadav
+
+- ** What's New? **
+  - Bug Fixes
+  - Enhanced shortcode (Now have full control over your forms)
+  - New Fields (Gender and Age)
 
 Steps to use:
 1. Download the .ZIP file from "https://github.com/intelkid7/yForms/"
