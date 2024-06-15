@@ -6,7 +6,7 @@ A wordpress plugin to create dynamic forms for your website
 - Current Version: 2.0
 - Author: Priyansh JS. Yadav
 
-- ** What's New? **
+- **What's New?**
   - Bug Fixes
   - Enhanced shortcode (Now have full control over your forms)
   - New Fields (Gender and Age)
