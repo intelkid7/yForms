@@ -8,11 +8,11 @@ A wordpress plugin to create dynamic forms for your website
 
 **What's New?**
   - Bug Fixes
-  - Enhanced shortcode (Now have full control over your forms)
+  - Enhanced shortcode (Now have full control over your forms and yet feel like coding!)
   - New Fields (Gender and Age)
 
 Steps to use:
-1. Download the .ZIP file from "https://github.com/intelkid7/yForms/"
+1. Download the .ZIP file from https://github.com/intelkid7/yForms/ (Code -> Download .ZIP)
 2. Open WordPress
 3. Go to plugins
 4. Click on "Add Plugin"
