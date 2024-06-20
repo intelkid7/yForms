@@ -37,7 +37,7 @@ Steps to use:
 19. Enter the name of your database you want to store data into.
     - ##### NOTE: The database should exist in your PhpMyAdmin
 20. Enter the table name where you want to store your data into.
-    - ##### NOTE: You don't need to create a table, it will be created on its own. It is recommanded to use a new table
+    - ##### NOTE: You don't need to create a table, it will be created on its own. It is recommanded to use a new table name
 21. Hit the "Save Changes" button and you are ready to go!
 22. You can head over to the "About & Instructions" section to know more about the shortcodes
 
