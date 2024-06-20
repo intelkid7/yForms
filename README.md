@@ -44,13 +44,14 @@ A wordpress plugin to create dynamic forms for your website
 ### Steps to clone and customize
 ##### NOTE: This tutorial assumes that you have WordPress installed in your local environment
 1. Clone the repository in your the folder you have your WordPress installation under "wp-content/plugins/"
+   
    ```
    git clone https://github.com/intelkid7/yForms.git
    ```
-2. Open the repository folder inside a code editor (Example: Visual Studio Code)
-3. Open WordPress admin dashboard
-4. Go to the Plugins tab
-5. You will be able to see the plugin there
-6. That's it! Now you can use & customize the plugin the way you want
+3. Open the repository folder inside a code editor (Example: Visual Studio Code)
+4. Open WordPress admin dashboard
+5. Go to the Plugins tab
+6. You will be able to see the plugin there
+7. That's it! Now you can use & customize the plugin the way you want
 
 **Update 3.0 coming soon!**
