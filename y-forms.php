@@ -2,23 +2,12 @@
 /**
  * Plugin Name: yForms
  * Description: A plugin that allows users to create a custom, dynamic login form with input fields for email, name, age, gender, mobile number, etc.
- * Version: 2.0
+ * Version: 2.1
  * Author: Priyansh JS. Yadav
  * Author URI: https://akritiart.netlify.app
  */
  require_once('C:\xampp\htdocs\wordpress\wp-load.php');
-
- // Include the form builder class
-//  require_once 'form-builder.php';
- 
- // Create an instance of the form builder class
-//  $form_builder = new Form_Builder();
- 
- // Add the form builder to the WordPress admin menu
-//  add_action('admin_menu', array($form_builder, 'add_menu_item'));
- 
- // Enqueue the CSS and JavaScript files
-//  add_action('admin_enqueue_scripts', array($form_builder, 'enqueue_assets'));
+ include "settings.php";
 
  function y_forms_shortcode( $atts, $content = null ) {
     // Set up default parameters
@@ -39,7 +28,19 @@
     $form_fields = '';
     foreach ($fields_array as $key => $field) {
         $label = (isset($labels_array[$key]))? $labels_array[$key] : ucfirst($field);
-        $form_fields.= '<label>'. $label. '</label><input class="form-input" type="text" name="'. $field. '"><br>';
+        if ($field == " passcode" or $field == "passcode") {
+            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="password" name="'. $field. '"><br>';
+        }
+        elseif ($field == "email") {
+            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="email" name="'. $field. '"><br>';
+        }
+        elseif ($field == "mobile_number") {
+            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="number" name="'. $field. '"><br>';
+        }
+        else {
+            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="text" name="'. $field. '"><br>';
+        }
+        
     }
 
     // Create the submit button

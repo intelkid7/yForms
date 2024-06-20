@@ -1,4 +1,7 @@
 <?php
+
+require_once('C:\xampp\htdocs\wordpress\wp-load.php');
+
 // Connect to the database
 $servername = "localhost";
 $username = "root";
@@ -19,12 +22,14 @@ if (isset($_POST['y_forms_data'])) {
     $age = $_POST['age'];
     $gender = $_POST['gender'];
     $mobile_number = $_POST['mobile_number'];
+    $password = $_POST['passcode'];
 
-    $sql = "INSERT INTO wp_user_data (email, username, age, gender, mobile_number) VALUES ('$email', '$username', '$age', '$gender', '$mobile_number')";
+    $sql = "INSERT INTO wp_user_data (email, username, age, gender, mobile_number, passcode) VALUES ('$email', '$username', '$age', '$gender', '$mobile_number', '$password')";
     $conn->query($sql);
 
     // Redirect to a thank-you page or display a success message
-    header("Location: y-forms.php");
+    $redirectUrl = get_option("y_forms_redirect_url");
+    header("Location: $redirectUrl");
     exit;
 }
 
