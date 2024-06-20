@@ -1,13 +1,14 @@
-# yForms v2.0
+# yForms v2.1
 A wordpress plugin to create dynamic forms for your website
 
 - Date created: 3 Jan 2023
-- Updated: 14 June 2024
-- Current Version: 2.0
+- Updated: 20 June 2024
+- Current Version: 2.1
 - Author: Priyansh JS. Yadav
 
 **What's New?**
   - Bug Fixes
+  - Custom Redirect URL
   - Enhanced shortcode (Now have full control over your forms and yet feel like coding!)
   - New Fields (Gender and Age)
 
@@ -25,7 +26,7 @@ Steps to use:
 11. Click on the '+' icon and then look out for the "shortcode [/]" option
 12. Click on it and you shall be able to write a shortcode now
 13. Insert the following shortcode - "[y_forms fields="fields, you, want, seperated, by, commas" labels="field, labels, you, want, seperated, by, commas" display_type="blocks/table"]"
-14. Here's an example of a simple shortcode - [y_forms fields="email, username" labels="Email, Username" display="table"] (Note that it is not necessary to write fields and labels as the same)
+14. Here's an example of a simple shortcode - [y_forms fields="email, passcode" labels="Email, Password" display="table"] (Note that it is not necessary to write fields and labels as the same)
 15. To save the details of the form to your database follow the below steps:
 16. Login to PhpMyAdmin
 17. Create a new database by the name "wordpress"
