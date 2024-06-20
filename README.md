@@ -3,7 +3,7 @@ A wordpress plugin to create dynamic forms for your website
 
 - Date created: 3 Jan 2023
 - Updated: 20 June 2024
-- Current Version: 2.2
+- Current Version: 2.3
 - Author: Priyansh JS. Yadav
 
 **What's New?**
@@ -12,6 +12,7 @@ A wordpress plugin to create dynamic forms for your website
   - Custom Redirect URL
   - Custom Database Name
   - Custom Table Name
+  - Custom Form Title
   - Enhanced shortcode (Now have full control over your forms and yet feel like coding!)
   - New Fields (Gender and Age)
 
