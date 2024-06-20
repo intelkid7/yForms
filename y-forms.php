@@ -13,11 +13,14 @@
  function y_forms_shortcode( $atts, $content = null ) {
     // Set up default parameters
     extract(shortcode_atts(array(
+        'title' => '',
         'fields' => 'email,username,age,gender,mobile_number',
         'labels' => '',
         'display_type' => 'blocks',
     ), $atts));
 
+    //Get the form title
+    $form_title = $title;
 
     // Get the fields array
     $fields_array = explode(',', $fields);
@@ -30,16 +33,16 @@
     foreach ($fields_array as $key => $field) {
         $label = (isset($labels_array[$key]))? $labels_array[$key] : ucfirst($field);
         if ($field == " passcode" or $field == "passcode") {
-            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="password" name="'. $field. '"><br>';
+            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="password" name="'. $field. '" placeholder="Enter your password"><br>';
         }
         elseif ($field == "email") {
-            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="email" name="'. $field. '"><br>';
+            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="email" name="'. $field. '" placeholder="Enter your email"><br>';
         }
-        elseif ($field == "mobile_number") {
-            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="number" name="'. $field. '"><br>';
+        elseif ($field == "mobile_number" or $field == "age") {
+            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="number" name="'. $field. '" placeholder="Enter your '.$field.'"><br>';
         }
         else {
-            $form_fields.= '<label>'. $label. '</label><input class="form-input" type="text" name="'. $field. '"><br>';
+            $form_fields.= ''.$label.'<input class="form-input" type="text" name="'. $field. '" placeholder = "Enter your '.$field.'"><br>';
         }
         
     }
@@ -50,14 +53,13 @@
 
     // Create the form
     $form_action = plugins_url('form-handler.php', __FILE__);
-    $form = '<form action="'. $form_action. '" method="post">'. $form_fields. $submit_button. '</form>';
+
+    $form = '<form action="'. $form_action. '" method="post"><h1>'.$title.'</h1><br>'. $form_fields. $submit_button. '</form>';
 
 
     // Display the form
     if ($display_type == 'blocks') {
         return '<div class="y-forms-block">'. $form. '</div>';
-    } else {
-        return '<table class="y-forms-table"><tr><td>'. $form. '</td></tr></table>';
     }
 }
 add_shortcode('y_forms', 'y_forms_shortcode');
