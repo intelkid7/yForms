@@ -15,7 +15,7 @@ A wordpress plugin to create dynamic forms for your website
   - Enhanced shortcode (Now have full control over your forms and yet feel like coding!)
   - New Fields (Gender and Age)
 
-Steps to use:
+### Steps to use:
 1. Download the .ZIP file from https://github.com/intelkid7/yForms/ (Code -> Download .ZIP)
 2. Open WordPress
 3. Go to plugins
@@ -40,5 +40,17 @@ Steps to use:
     - ##### NOTE: You don't need to create a table, it will be created on its own. It is recommanded to use a new table name
 21. Hit the "Save Changes" button and you are ready to go!
 22. You can head over to the "About & Instructions" section to know more about the shortcodes
+
+### Steps to clone and customize
+##### NOTE: This tutorial assumes that you have WordPress installed in your local environment
+1. Clone the repository in your the folder you have your WordPress installation under "wp-content/plugins/"
+   ```
+   git clone https://github.com/intelkid7/yForms.git
+   ```
+2. Open the repository folder inside a code editor (Example: Visual Studio Code)
+3. Open WordPress admin dashboard
+4. Go to the Plugins tab
+5. You will be able to see the plugin there
+6. That's it! Now you can use & customize the plugin the way you want
 
 **Update 3.0 coming soon!**
