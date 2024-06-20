@@ -2,7 +2,7 @@
 /**
  * Plugin Name: yForms
  * Description: A plugin that allows users to create a custom, dynamic login form with input fields for email, name, age, gender, mobile number, etc.
- * Version: 2.1
+ * Version: 2.3
  * Author: Priyansh JS. Yadav
  * Author URI: https://akritiart.netlify.app
  */
