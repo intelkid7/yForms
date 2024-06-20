@@ -1,6 +1,6 @@
 <?php
 function y_forms_settings_page() {
-    add_menu_page('Y Forms Settings', 'Y Forms Settings', 'manage_options', 'y-forms-settings', 'y_forms_settings_callback');
+    add_menu_page('yForms Settings', 'yForms Settings', 'manage_options', 'y-forms-settings', 'y_forms_settings_callback');
 }
 add_action('admin_menu', 'y_forms_settings_page');
 

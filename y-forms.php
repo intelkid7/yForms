@@ -8,6 +8,7 @@
  */
  require_once('C:\xampp\htdocs\wordpress\wp-load.php');
  include "settings.php";
+ include "yformsabout.php";
 
  function y_forms_shortcode( $atts, $content = null ) {
     // Set up default parameters
