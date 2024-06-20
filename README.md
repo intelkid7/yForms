@@ -29,8 +29,8 @@ A wordpress plugin to create dynamic forms for your website
 10. To test it out go to Pages->Create New Page
 11. Click on the '+' icon and then look out for the "shortcode [/]" option
 12. Click on it and you shall be able to write a shortcode now
-13. Insert the following shortcode - "[y_forms fields="fields, you, want, seperated, by, commas" labels="field, labels, you, want, seperated, by, commas" display_type="blocks/table"]"
-14. Here's an example of a simple shortcode - [y_forms fields="email, passcode" labels="Email, Password" display="table"] (Note that it is not necessary to write fields and labels as the same)
+13. Insert the following shortcode - "[y_forms title="form title" fields="fields, you, want, seperated, by, commas" labels="field, labels, you, want, seperated, by, commas" display_type="blocks/table"]"
+14. Here's an example of a simple shortcode - [y_forms title="Login" fields="email, passcode" labels="Email, Password" display="table"] (Note that it is not necessary to write fields and labels as the same)
     - ##### NOTE: The fields need to be entered as they are. You can change the labels but changing the fields will result in errors. For more information on fields you can visit the Plugin information page in your admin sidebar
 16. To save the details of the form to your database follow the below steps:
 17. Head over to the "yForms Settings" tab in the WordPress side menu
