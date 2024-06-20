@@ -43,7 +43,7 @@ A wordpress plugin to create dynamic forms for your website
 
 ### Steps to clone and customize
 ##### NOTE: This tutorial assumes that you have WordPress installed in your local environment
-##### To setup WordPress locally follow this link - [https://youtu.be/um8BtHFNJBA?si=Oi_xY1zywwz55Num]
+##### To setup WordPress locally, follow this link - [https://youtu.be/um8BtHFNJBA?si=Oi_xY1zywwz55Num]
 1. Clone the repository in your the folder you have your WordPress installation under "wp-content/plugins/"
    
    ```
