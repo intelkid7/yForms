@@ -28,7 +28,7 @@ function y_forms_about_callback() {
             <li>6. <code>password</code></li>
         </ul>
         <h4 style="font-size: 1rem">Example:</h4>
-        <code>[y_forms fields="email, username, password" labels="Email, Username, Password" display_type="blocks"]</code>
+        <code>[y_forms title="Login" fields="email, username, password" labels="Email, Username, Password" display_type="blocks"]</code>
      </div>
      <?php
 }
