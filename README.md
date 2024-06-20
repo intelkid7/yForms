@@ -1,4 +1,4 @@
-# yForms v2.1.1
+# yForms v2.3
 A wordpress plugin to create dynamic forms for your website
 
 - Date created: 3 Jan 2023
